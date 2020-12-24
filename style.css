@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+.GMenu {
+    text-align: center;
+    width: auto;
+    background-color: #445339;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+a {
+    color: wheat !important;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+nav>a {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 100%;
+}
+
+nav>a:hover {
+    background-color: #2d3c21;
+}
+
+header {
+    background-color: #ECF87F;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header>.hed {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.hed>img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Tovar {
+    text-align: center;
+    width: 100%;
+    background-color: #81B622;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.tov {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media(max-width: 900px) {
+    .tov {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .hed {
+        text-align: center;
+    }
+}
+
+.obrs {
+    background-color: #ECF87F;
+    text-align: center;
+    height: auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.obrs>h2,
+p {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+footer {
+    width: 100%;
+    background-color: #445339;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: wheat;
+}
+
+button {
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+    background-color: #445339;
+    color: wheat;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #81B622;
+}
+
+footer>p {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+input {
+    width: 25%;
+    height: 50px;
+}
